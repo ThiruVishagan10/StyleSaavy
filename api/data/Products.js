@@ -5,9 +5,9 @@ const products = [
         description: "This is the first product",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSbY9YU3QXQYR7fCH_VRs__sn2nchw-UtzA&s",
         category: "Category 1",
-        stock: 10,
+        countInStock: 10, // Add this field
+        numReviews: 10,   // Add this field
         rating: 4.5,
-        reviews: 10,
         isFeatured: true
     },
     {
@@ -16,9 +16,9 @@ const products = [
         description: "This is the second product",
         image: "https://via.placeholder.com/150",  // Replace with actual URL
         category: "Category 1",
-        stock: 10,
+        countInStock: 10, // Add this field
+        numReviews: 10,   // Add this field
         rating: 4.5,
-        reviews: 10,
         isFeatured: true
     },
     {
@@ -27,9 +27,9 @@ const products = [
         description: "This is the third product",
         image: "https://via.placeholder.com/150",  // Replace with actual URL
         category: "Category 1",
-        stock: 10,
+        countInStock: 10, // Add this field
+        numReviews: 10,   // Add this field
         rating: 4.5,
-        reviews: 10,
         isFeatured: true
     },
     {
@@ -38,9 +38,9 @@ const products = [
         description: "This is the fourth product",
         image: "https://via.placeholder.com/150",  // Replace with actual URL
         category: "Category 1",
-        stock: 10,
+        countInStock: 10, // Add this field
+        numReviews: 10,   // Add this field
         rating: 4.5,
-        reviews: 10,
         isFeatured: true
     },
     {
@@ -49,9 +49,9 @@ const products = [
         description: "This is the fifth product",
         image: "https://via.placeholder.com/150",  // Replace with actual URL
         category: "Category 1",
-        stock: 10,
+        countInStock: 10, // Add this field
+        numReviews: 10,   // Add this field
         rating: 4.5,
-        reviews: 10,
         isFeatured: true
     }
 ];
