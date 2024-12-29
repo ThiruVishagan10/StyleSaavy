@@ -19,6 +19,10 @@ app.use(express.json());
 const databaseSeeder = require('./databaseSeeder');
 app.use('/api/seed', databaseSeeder);
 
+// Match Password
+const userRoute = require('./routes/User');
+app.use('/api/users', userRoute);
+
 // App Test Routes
 app.get("/products", (req, res) => {
   res.json(products);
